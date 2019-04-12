@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DieTest" time="0.143" tests="101" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/test-classes:/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/classes:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.1/junit-jupiter-5.4.1.jar:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.1/junit-jupiter-api-5.4.1.jar:/home/rayranu/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/rayranu/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/rayranu/.m2/repository/org/junit/platform/junit-platform-commons/1.4.1/junit-platform-commons-1.4.1.jar:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.1/junit-jupiter-params-5.4.1.jar:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.1/junit-jupiter-engine-5.4.1.jar:/home/rayranu/.m2/repository/org/junit/platform/junit-platform-engine/1.4.1/junit-platform-engine-1.4.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/surefire/surefirebooter16577191949928125307.jar /home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/surefire 2019-04-12T11-31-54_405-jvmRun1 surefire5790130601177154116tmp surefire_018272158604877980008tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/test-classes:/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/classes:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.1/junit-jupiter-5.4.1.jar:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.1/junit-jupiter-api-5.4.1.jar:/home/rayranu/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/rayranu/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/rayranu/.m2/repository/org/junit/platform/junit-platform-commons/1.4.1/junit-platform-commons-1.4.1.jar:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.1/junit-jupiter-params-5.4.1.jar:/home/rayranu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.1/junit-jupiter-engine-5.4.1.jar:/home/rayranu/.m2/repository/org/junit/platform/junit-platform-engine/1.4.1/junit-platform-engine-1.4.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/rayranu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3/target/surefire/surefirebooter16577191949928125307.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.3+4"/>
+    <property name="user.name" value="rayranu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.19.32-1-MANJARO"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/rayranu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="user.dir" value="/home/rayranu/CloudStation/Etudes/HEIG-VD/2018/Semestre 2/GEN/labos/labo3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.3+4"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="dieRollMustBeLessThanSeven[1]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[2]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[3]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[4]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[5]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[6]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[7]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[8]" classname="DieTest" time="0.003"/>
+  <testcase name="dieRollMustBeLessThanSeven[9]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[10]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[11]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[12]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[13]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[14]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[15]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[16]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[17]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[18]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[19]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[20]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[21]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[22]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[23]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[24]" classname="DieTest" time="0.002"/>
+  <testcase name="dieRollMustBeLessThanSeven[25]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[26]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[27]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[28]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[29]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[30]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[31]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[32]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[33]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[34]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[35]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[36]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[37]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[38]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[39]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[40]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[41]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[42]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[43]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[44]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[45]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[46]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[47]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[48]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[49]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[50]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[51]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[52]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[53]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[54]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[55]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[56]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[57]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[58]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[59]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[60]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[61]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[62]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[63]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[64]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[65]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[66]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[67]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[68]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[69]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[70]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[71]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[72]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[73]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[74]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[75]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[76]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[77]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[78]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[79]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[80]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[81]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[82]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[83]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[84]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[85]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[86]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[87]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[88]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[89]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[90]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[91]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[92]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[93]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[94]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[95]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[96]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[97]" classname="DieTest" time="0.001"/>
+  <testcase name="dieRollMustBeLessThanSeven[98]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[99]" classname="DieTest" time="0"/>
+  <testcase name="dieRollMustBeLessThanSeven[100]" classname="DieTest" time="0"/>
+  <testcase name="dieShouldReturnTheRightNumber" classname="DieTest" time="0"/>
+</testsuite>
