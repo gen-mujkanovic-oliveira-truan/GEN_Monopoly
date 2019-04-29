@@ -1,15 +1,31 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Board {
     private ArrayList<Square> squaresArray;
 
-    Board(){
+    public Board(){
+        int i;
         this.squaresArray = new ArrayList<Square>();
-        squaresArray.add(new Square("GO"));
-        for(int i = 1; i < 40; ++i){
-            squaresArray.add(new Square("Square " + i));
+        squaresArray.add(new GoSquare("GO"));
+        for(i = 1; i < 10; ++i){
+            squaresArray.add(new RegularSquare("Square " + i));
+        }
+        squaresArray.add(new RegularSquare("JAIL"));
+
+        for(; i < 19; ++i){
+            squaresArray.add(new RegularSquare("Square " + i));
+        }
+
+        squaresArray.add(new IncomeTaxSquare("INCOME TAX SQUARE"));
+
+        for(; i < 28; ++i){
+            squaresArray.add(new RegularSquare("Square " + i));
+        }
+
+        squaresArray.add(new GoToJailSquare("GO TO JAIL"));
+
+        for(; i < 37; ++i){
+            squaresArray.add(new RegularSquare("Square " + i));
         }
     }
 
@@ -20,5 +36,9 @@ public class Board {
         }
 
         return squaresArray.get((squaresArray.indexOf(oldLoc)+fvTot ) % squaresArray.size());
+    }
+
+    public Square getSquareAtPos(int pos){
+        return squaresArray.get(pos % squaresArray.size());
     }
 }
