@@ -46,4 +46,8 @@ public class Player {
     public Piece getPiece(){
         return this.piece;
     }
+
+    public String toString(){
+        return this.name + ": " + this.cash;
+    }
 }

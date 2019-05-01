@@ -25,6 +25,10 @@ public class MonopolyGame {
             ++roundCnt;
         }
         System.out.println("Game finished ! ");
+        System.out.println("Results:");
+        for (Player p : this.players) {
+            System.out.println(p);
+        }
     }
 
     private void playRound(){
@@ -39,5 +43,11 @@ public class MonopolyGame {
 
     public int getNbPlayer(){
         return this.players.size();
+    }
+
+
+    public static void main(String[] args) {
+        MonopolyGame mg = new MonopolyGame(2);
+        mg.playGame(20);
     }
 }

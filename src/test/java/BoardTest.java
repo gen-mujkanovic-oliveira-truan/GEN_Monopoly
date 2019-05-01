@@ -5,6 +5,9 @@ import java.util.ArrayList;
 
 public class BoardTest {
 
+    /**
+     * This test if all the deplacements are legits
+     */
     @Test
     public void theNewLocationMustBeTheOldLocationMoreOffset(){
         Board b = new Board();
@@ -22,6 +25,9 @@ public class BoardTest {
         }
     }
 
+    /**
+     * Check if the board return the right first square
+     */
     @Test
     public void aBoardShouldReturnFirstSquare(){
         Board b = new Board();

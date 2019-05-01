@@ -37,7 +37,18 @@ public class PlayerTest {
         assertEquals(piece.getLocation().getClass().getSimpleName(), "RegularSquare");
         assertEquals(piece.getLocation().toString(), "JAIL");
    }
+    @Test
+    public void ifAPlayerLandOnIncomeTaxSquareHeHasToPay(){
+        IncomeTaxSquare tmpIncomeTax = new IncomeTaxSquare("TAX");
+        Player p = new Player("TestPlayer", new Cup(2), new Board());
+        Piece piece = p.getPiece();
+        int tmpCash = p.getNetWorth();
+        p.setLocation(tmpIncomeTax);
+        piece.getLocation().landedOn(p);
+        int expectedTax = Integer.min(tmpCash/10,200);
 
+        assertEquals(tmpCash - expectedTax, p.getNetWorth());
+    }
 
 
 }
