@@ -1,30 +1,33 @@
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 
 public class BoardTest {
 
+    /**
+     * This test if all the deplacements are legits
+     */
     @Test
     public void theNewLocationMustBeTheOldLocationMoreOffset(){
         Board b = new Board();
-        Square s = b.getSquare(null,0);
-
-        ArrayList<Square> squares = new ArrayList<Square>();
-        squares.add(new Square("GO"));
-        for(int i = 1; i < 40; ++i){
-            squares.add(new Square("Square " + i));
-        }
+        Square s = b.getSquareAtPos(0);
 
         int index = 0;
-        //deplacements possibles
+
+        //deplacements possibles avec deux dés
         for(int i = 2; i < 13; ++i){
             s = b.getSquare(s,i);
             index = (i + index) % 40;
-            assertEquals(s.toString(), squares.get(index).toString());
+            System.out.println(s.toString() + " - " + b.getSquareAtPos(index).toString());
+            assertEquals(s.toString(), b.getSquareAtPos(index).toString());
 
         }
     }
 
+    /**
+     * Check if the board return the right first square
+     */
     @Test
     public void aBoardShouldReturnFirstSquare(){
         Board b = new Board();

@@ -5,6 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DieTest {
 
 
+    /**
+     * Check if the die return values between 1 and 6
+     */
     @RepeatedTest(100)
     public void dieRollMustBeLessThanSeven(){
         Die d = new Die();
@@ -15,6 +18,9 @@ public class DieTest {
     }
 
 
+    /**
+     * Check if the die return the right value
+     */
     @Test
     public void dieShouldReturnTheRightNumber(){
         Die d = new Die(){

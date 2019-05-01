@@ -1,7 +1,7 @@
-public class Square {
+public abstract class Square {
     private String name;
 
-    Square(String name){
+    public Square(String name){
         this.name = name;
     }
 
@@ -9,4 +9,6 @@ public class Square {
     public String toString(){
         return name;
     }
+
+    public abstract void landedOn(Player p);
 }
