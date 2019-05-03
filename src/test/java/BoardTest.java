@@ -19,7 +19,6 @@ public class BoardTest {
         for(int i = 2; i < 13; ++i){
             s = b.getSquare(s,i);
             index = (i + index) % 40;
-            System.out.println(s.toString() + " - " + b.getSquareAtPos(index).toString());
             assertEquals(s.toString(), b.getSquareAtPos(index).toString());
 
         }
