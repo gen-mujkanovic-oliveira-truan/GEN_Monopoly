@@ -2,6 +2,10 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Test some functions for the dice.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
+ */
 public class DieTest {
 
 

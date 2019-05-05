@@ -1,12 +1,15 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import java.util.ArrayList;
 
+/**
+ * Tests some functions of the board.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
+ */
 public class BoardTest {
 
     /**
-     * This test if all the deplacements are legits
+     * This test if all the mouvements are legits
      */
     @Test
     public void theNewLocationMustBeTheOldLocationMoreOffset(){

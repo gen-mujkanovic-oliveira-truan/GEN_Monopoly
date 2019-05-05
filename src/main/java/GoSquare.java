@@ -1,5 +1,6 @@
 /**
  * Represent the start square of the game. You win money if you land on it.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class GoSquare extends Square {
     /**

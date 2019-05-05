@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Represent a game of Monopoly.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class MonopolyGame {
     private Board board;

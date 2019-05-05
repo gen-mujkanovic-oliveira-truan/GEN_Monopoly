@@ -1,5 +1,6 @@
 /**
  * Represent A piece on the board.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class Piece {
     private String name;

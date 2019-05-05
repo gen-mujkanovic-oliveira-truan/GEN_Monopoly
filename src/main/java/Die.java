@@ -2,6 +2,7 @@ import java.util.Random;
 
 /**
  * Represent a die
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class Die {
     private int faceValue;

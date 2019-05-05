@@ -1,5 +1,6 @@
 /**
  * Abstract class to represent a Square on a board.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public abstract class Square {
     private String name;
