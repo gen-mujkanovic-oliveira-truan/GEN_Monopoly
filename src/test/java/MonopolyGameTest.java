@@ -1,17 +1,24 @@
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+/**
+ * Test some function of the Monopoly Game.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
+ */
 public class MonopolyGameTest {
     /**
      * Test if a monopoly game does not stop too early or too late.
      */
-    @Test
-    public void aMonopolyGameMustPlayTheSpecifiedNumberOfRound(){
+    @ParameterizedTest
+    @ValueSource(ints = {1,5,10,20,30,100})
+    public void aMonopolyGameMustPlayTheSpecifiedNumberOfRound(int nbRound){
         MonopolyGame mp = new MonopolyGame(2);
-        mp.playGame(20);
-        assertEquals(20, mp.getRoundCnt());
+        mp.playGame(nbRound);
+        assertEquals(nbRound, mp.getRoundCnt());
 
     }
 

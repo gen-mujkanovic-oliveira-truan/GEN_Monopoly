@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Represent the cup containing multiple dice
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class Cup {
     private int getTotal;

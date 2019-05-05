@@ -1,5 +1,6 @@
 /**
  * Represent a regular Square on the gameBoard without any effects.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class RegularSquare extends Square {
     /**

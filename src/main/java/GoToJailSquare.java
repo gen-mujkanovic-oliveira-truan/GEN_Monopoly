@@ -1,5 +1,6 @@
 /**
  * Represent a Square where you are put on the jail square if you land on it.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class GoToJailSquare extends Square {
     /**

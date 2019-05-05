@@ -1,5 +1,6 @@
 /**
  * Represent a Square where you have to pay if you land on it.
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class IncomeTaxSquare extends Square {
     /**

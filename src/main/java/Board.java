@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
 /**
- * Represents a board. Contains differents Squares
+ * Represents a board. Contains different Squares
+ * Authors : Edin Mujkanovic, Daniel Oliveira Paiva, Victor Truan.
  */
 public class Board {
     private ArrayList<Square> squaresArray;
